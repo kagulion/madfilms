@@ -1,12 +1,7 @@
 {
   "name": "madfilms",
   "version": "1.0.0",
-  "description": "Все фильмы, которые посмотрел Илья Мэддисон на своих стримах",
-  "keywords": [
-    "maddyson",
-    "films",
-    "madfilms"
-  ],
+  "description": "",
   "homepage": "https://github.com/kagulion/madfilms#readme",
   "bugs": {
     "url": "https://github.com/kagulion/madfilms/issues"
@@ -16,13 +11,10 @@
     "url": "git+https://github.com/kagulion/madfilms.git"
   },
   "license": "ISC",
-  "author": "KAGU",
+  "author": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "@11ty/eleventy": "^3.1.2"
   }
 }
