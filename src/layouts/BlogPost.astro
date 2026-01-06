@@ -3,13 +3,11 @@ import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
-import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, heroImage, movieYear } =
-  Astro.props;
+const { title, description, link, heroImage, movieYear } = Astro.props;
 ---
 
 <html lang="ru">
@@ -20,28 +18,33 @@ const { title, description, heroImage, movieYear } =
   <body>
     <Header />
     <main
-      class="m-0 px-4 py-4 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
+      class="min-h-screen m-0 px-4 py-4 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
     >
       <article class="mx-auto p-6 border border-dashed lg:p-4 md:max-w-5xl">
-        <div class="hero-image">
-          {
-            heroImage && (
-              <Image
-                class="h-112 object-cover"
-                src={heroImage}
-                alt="Постер фильма"
-              />
-            )
-          }
-        </div>
-        <div class="prose">
-          <div class="title">
-            <h1 class="uppercase font-bold text-2xl text-stone-950">{title}</h1>
-            <div class="date">
-              {movieYear}
-            </div>
+        <div class="flex flex-col gap-5">
+          <div>
+            {
+              heroImage && (
+                <Image
+                  class="h-112 object-cover"
+                  src={heroImage}
+                  alt="Постер фильма"
+                />
+              )
+            }
           </div>
-          <slot />
+          <div class="flex flex-col gap-2">
+            <h1 class="uppercase font-bold text-2xl text-stone-950">{title}</h1>
+            <span class="text-xl text-stone-500">
+              {movieYear}
+            </span>
+          </div>
+          <a
+            href={link}
+						target="_blank"
+            class="flex justify-center px-5 py-3 text-base font-semibold bg-yellow-400 text-stone-950 hover:border-b-2 hover:shadow-sm hover:shadow-yellow-400 transition-all duration-100"
+            >Ссылка на просмотр</a
+          >
         </div>
       </article>
     </main>
