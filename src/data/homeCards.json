@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "12-stulev",
+    "title": "12 стульев",
+    "movieYear": 1971,
+    "heroImage": "/posters/12-stulev.webp",
+    "link": "https://tailwindcss.com/docs/border-radius"
+  },
+  {
+    "slug": "chas-pik",
+    "title": "Час пик",
+    "movieYear": 1998,
+    "heroImage": "/posters/chas-pik.webp",
+    "link": "/"
+  },
+  {
+    "slug": "chas-pik-2",
+    "title": "Час пик 2",
+    "movieYear": 2001,
+    "heroImage": "/posters/chas-pik-2.webp",
+    "link": "/"
+  },
+  {
+    "slug": "shkola-turma",
+    "title": "Школа: тюрьма",
+    "movieYear": 2012,
+    "heroImage": "/posters/shkola-turma.webp",
+    "link": "/"
+  },
+  {
+    "slug": "strazhi-galactiki",
+    "title": "Стражи Галактики",
+    "movieYear": 2014,
+    "heroImage": "/posters/strazhi-galactiki.webp",
+    "link": "/"
+  },
+  {
+    "slug": "ubludok",
+    "title": "Ублюдок",
+    "movieYear": 2011,
+    "heroImage": "/posters/ubludok.webp",
+    "link": "/"
+  }
+]
+
+

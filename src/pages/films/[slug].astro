@@ -1,0 +1,82 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import Footer from "../../components/Footer.astro";
+import Header from "../../components/Header.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
+import homeCards from "../../data/homeCards.json";
+
+type HomeCard = {
+  slug: string;
+  title: string;
+  movieYear: number;
+  heroImage: string;
+  link: string;
+};
+
+export function getStaticPaths() {
+  const cards = homeCards as HomeCard[];
+  return cards.map((card) => ({
+    params: { slug: card.slug },
+  }));
+}
+
+const cards = homeCards as HomeCard[];
+const { slug } = Astro.params;
+const film = cards.find((card) => card.slug === slug);
+
+if (!film) {
+  throw new Error(`Фильм со slug "${slug}" не найден в homeCards.json`);
+}
+---
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <BaseHead
+      title={`${film.title} — ${SITE_TITLE}`}
+      description={SITE_DESCRIPTION}
+    />
+  </head>
+  <body>
+    <Header />
+    <main
+      class="m-0 px-4 py-6 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
+    >
+      <article class="mx-auto flex flex-col gap-6 md:max-w-3xl">
+        <header class="flex flex-col gap-3 md:flex-row md:items-start md:gap-6">
+          <img
+            class="w-full max-w-xs md:w-64 md:h-96 object-cover border border-dashed"
+            src={film.heroImage}
+            alt={`Постер фильма ${film.title}`}
+            loading="lazy"
+          />
+          <div class="flex-1 flex flex-col gap-5 sm:gap-6">
+            <div class="flex flex-col gap-2">
+              <h1 class="uppercase font-bold text-2xl text-stone-950">
+                {film.title}
+              </h1>
+              <span class="text-xl text-stone-500">{film.movieYear}</span>
+            </div>
+            <a
+              href={film.link}
+              target="_blank"
+              class="inline-block w-fit h-fit px-5 py-3 text-base font-semibold bg-yellow-400 text-stone-950 hover:border-b-2 hover:shadow-sm hover:shadow-yellow-400 transition-all duration-100"
+              >Ссылка на просмотр</a
+            >
+          </div>
+        </header>
+
+        <section class="prose prose-stone max-w-none">
+          <p>
+            Здесь может быть описание фильма, рецензия или любая другая информация.
+            Сейчас страница полностью формируется на основе данных из JSON
+            (`homeCards.json`), без использования Markdown-файлов.
+          </p>
+        </section>
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
+
+
