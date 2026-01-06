@@ -36,7 +36,9 @@ const posts = (await getCollection("blog")).sort(
                       alt="Постер фильма"
                     />
                   )}
-                  <p class="text-xs text-stone-500 lg:text-sm">{post.data.movieYear}</p>
+                  <p class="text-xs text-stone-500 lg:text-sm">
+                    {post.data.movieYear}
+                  </p>
                   <h4 class="font-bold uppercase text-base text-stone-950 lg:text-lg group-hover:last:text-yellow-500 transition-colors duration-300">
                     {post.data.title}
                   </h4>
