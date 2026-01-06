@@ -24,9 +24,9 @@ const cards = homeCards as HomeCard[];
   <body>
     <Header />
     <main
-      class="m-0 h-screen px-4 py-4 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
+      class="m-0 px-4 pt-4 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
     >
-      <section class="mx-auto md:max-w-5xl">
+      <section class="mx-auto mb-5 md:max-w-5xl">
         <ul
           class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 lg:gap-5"
         >
@@ -55,6 +55,9 @@ const cards = homeCards as HomeCard[];
           }
         </ul>
       </section>
+      <div class="flex justify-center">
+        <img src="/vault-boy.png" alt="Vault Boy">
+      </div>
     </main>
     <Footer />
   </body>
