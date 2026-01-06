@@ -40,12 +40,12 @@ if (!film) {
   <body>
     <Header />
     <main
-      class="m-0 px-4 py-6 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
+      class="m-0 h-screen px-4 py-6 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
     >
-      <article class="mx-auto flex flex-col gap-6 md:max-w-3xl">
-        <header class="flex flex-col gap-3 md:flex-row md:items-start md:gap-6">
+      <article class="mx-auto flex flex-col p-6 gap-6 border border-dashed max-w-5xl">
+        <div class="flex flex-col gap-3 md:flex-row md:items-start md:gap-6">
           <img
-            class="w-full max-w-xs md:w-64 md:h-96 object-cover border border-dashed"
+            class="w-full max-w-xs md:w-64 md:h-96 object-cover"
             src={film.heroImage}
             alt={`Постер фильма ${film.title}`}
             loading="lazy"
@@ -64,15 +64,7 @@ if (!film) {
               >Ссылка на просмотр</a
             >
           </div>
-        </header>
-
-        <section class="prose prose-stone max-w-none">
-          <p>
-            Здесь может быть описание фильма, рецензия или любая другая информация.
-            Сейчас страница полностью формируется на основе данных из JSON
-            (`homeCards.json`), без использования Markdown-файлов.
-          </p>
-        </section>
+        </div>
       </article>
     </main>
     <Footer />

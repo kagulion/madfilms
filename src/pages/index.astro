@@ -24,7 +24,7 @@ const cards = homeCards as HomeCard[];
   <body>
     <Header />
     <main
-      class="m-0 px-4 py-4 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
+      class="m-0 h-screen px-4 py-4 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
     >
       <section class="mx-auto md:max-w-5xl">
         <ul
@@ -46,7 +46,7 @@ const cards = homeCards as HomeCard[];
                   <p class="text-xs text-stone-500 lg:text-sm">
                     {card.movieYear}
                   </p>
-                  <h4 class="font-bold uppercase text-base text-stone-950 lg:text-lg group-hover:last:text-yellow-500 transition-colors duration-300">
+                  <h4 class="font-bold uppercase text-base text-stone-950 lg:text-lg/6 group-hover:last:text-yellow-500 transition-colors duration-300">
                     {card.title}
                   </h4>
                 </a>
