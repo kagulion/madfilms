@@ -87,7 +87,7 @@
     "slug": "brat-2",
     "title": "Брат 2",
     "movieYear": 2000,
-    "heroImage": "/posters/movie-placeholder.png",
+    "heroImage": "/posters/Brother_2.webp",
     "link": "https://t.me/dedvods/1939"
   },
   {
@@ -101,7 +101,7 @@
     "slug": "vazhno-ne-upustit",
     "title": "Не упускай из виду",
     "movieYear": 1975,
-    "heroImage": "/posters/movie-placeholder.png",
+    "heroImage": "/posters/La_course.webp",
     "link": "https://t.me/dedvods/1991"
   },
   {
@@ -325,7 +325,7 @@
     "slug": "kto-est-kto",
     "title": "Кто есть кто?",
     "movieYear": 1978,
-    "heroImage": "/posters/movie-placeholder.png",
+    "heroImage": "/posters/Flic_ou_voyou.webp",
     "link": "https://t.me/dedvods/3522"
   },
   {
@@ -374,7 +374,7 @@
     "slug": "kurer",
     "title": "Курьер",
     "movieYear": 1986,
-    "heroImage": "/posters/movie-placeholder.png",
+    "heroImage": "/posters/Kurier_1986.webp",
     "link": "https://t.me/dedvods/3133"
   },
   {
@@ -437,7 +437,7 @@
     "slug": "nebesnyy-legion",
     "title": "Небесный легион",
     "movieYear": 2005,
-    "heroImage": "/posters/movie-placeholder.png",
+    "heroImage": "/posters/Cheongun.webp",
     "link": "https://t.me/dedvods/1715"
   },
   {
@@ -483,17 +483,17 @@
     "link": "https://t.me/dedvods/1991"
   },
   {
-    "slug": "osk-r",
+    "slug": "oskar",
     "title": "Оскар",
     "movieYear": 1967,
-    "heroImage": "/posters/movie-placeholder.png",
+    "heroImage": "/posters/Oscar_1967.webp",
     "link": "https://t.me/dedvods/246"
   },
   {
     "slug": "otkroyte-politsiya",
     "title": "Откройте, полиция!",
     "movieYear": 1984,
-    "heroImage": "/posters/movie-placeholder.png",
+    "heroImage": "/posters/Les_ripoux.webp",
     "link": "https://t.me/dedvods/268"
   },
   {
@@ -577,7 +577,7 @@
     "slug": "smertelnaya-bitva",
     "title": "Смертельная битва",
     "movieYear": 1995,
-    "heroImage": "/posters/movie-placeholder.png",
+    "heroImage": "/posters/Mortal_kombat_1995.webp",
     "link": "https://t.me/dedvods/246"
   },
   {
@@ -633,7 +633,7 @@
     "slug": "schastlivi-vmeste",
     "title": "Счастливы вместе",
     "movieYear": 2006,
-    "heroImage": "/posters/movie-placeholder.png",
+    "heroImage": "/posters/Happy_together.webp",
     "link": "https://t.me/dedvods/2730"
   },
   {
@@ -654,7 +654,7 @@
     "slug": "taksist",
     "title": "Таксист",
     "movieYear": 2017,
-    "heroImage": "/posters/movie-placeholder.png",
+    "heroImage": "/posters/Taxi_driver.webp",
     "link": "https://t.me/dedvods/2613"
   },
   {
@@ -710,7 +710,7 @@
     "slug": "fontan",
     "title": "Фонтан",
     "movieYear": 1988,
-    "heroImage": "/posters/movie-placeholder.png",
+    "heroImage": "/posters/The_Fountain_2006.jpg",
     "link": "https://t.me/dedvods/1991"
   },
   {
@@ -738,7 +738,7 @@
     "slug": "chak-i-larri",
     "title": "Чак и Ларри: Пожарная свадьба",
     "movieYear": 2007,
-    "heroImage": "/posters/I_Now_Pronounce_You_Chuck_Larry_2007.jpg",
+    "heroImage": "/posters/I_Now_Pronounce_You_Chuck__Larry_2007.jpg",
     "link": "https://t.me/dedvods/4800"
   },
   {
