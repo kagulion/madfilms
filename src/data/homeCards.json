@@ -3,44 +3,756 @@
     "slug": "12-stulev",
     "title": "12 стульев",
     "movieYear": 1971,
-    "heroImage": "/posters/12-stulev.webp",
-    "link": "https://tailwindcss.com/docs/border-radius"
+    "heroImage": "/posters/The_Twelve_Chairs_1970.jpg",
+    "link": "https://t.me/dedvods/126"
   },
   {
-    "slug": "chas-pik",
-    "title": "Час пик",
-    "movieYear": 1998,
-    "heroImage": "/posters/chas-pik.webp",
+    "slug": "afonya",
+    "title": "Афоня",
+    "movieYear": 1975,
+    "heroImage": "/posters/Afonya_1975.jpg",
+    "link": "https://t.me/dedvods/214"
+  },
+  {
+    "slug": "alisa-ne-mozhet-zhdat",
+    "title": "Алиса не может ждать",
+    "movieYear": 1974,
+    "heroImage": "/posters/Alisa_ne_mozhet_zhdat_2022.jpg",
+    "link": "https://t.me/dedvods/2693"
+  },
+  {
+    "slug": "armiya-tmy",
+    "title": "Армия тьмы",
+    "movieYear": 1992,
+    "heroImage": "/posters/Army_of_Darkness_1992.jpg",
+    "link": "https://t.me/dedvods/1715"
+  },
+  {
+    "slug": "azumanga-daioh",
+    "title": "Адзуманга Дайох",
+    "movieYear": 2002,
+    "heroImage": "/posters/Azumanga_Daioh_The_Animation_2002.jpg",
+    "link": "https://www.youtube.com/playlist?list=PLci7khh_Mr1RiOAQ6dUmQCuOZwsYQGt6m&index=5"
+  },
+  {
+    "slug": "bespredel",
+    "title": "Беспредел",
+    "movieYear": 2010,
+    "heroImage": "/posters/Bespredel.webp",
+    "link": "https://t.me/dedvods/3522"
+  },
+  {
+    "slug": "bez-litsa",
+    "title": "Без лица",
+    "movieYear": 1997,
+    "heroImage": "/posters/FaceOff_1997.jpg",
+    "link": "https://t.me/dedvods/3368"
+  },
+  {
+    "slug": "beloe-solntse-pustyni",
+    "title": "Белое солнце пустыни",
+    "movieYear": 1970,
+    "heroImage": "/posters/White_Sun_of_the_Desert_1970.jpg",
+    "link": "https://t.me/dedvods/126"
+  },
+  {
+    "slug": "begletsy",
+    "title": "Беглецы",
+    "movieYear": 1986,
+    "heroImage": "/posters/The_Fugitives_1986.jpg",
     "link": "/"
   },
   {
-    "slug": "chas-pik-2",
-    "title": "Час пик 2",
-    "movieYear": 2001,
-    "heroImage": "/posters/chas-pik-2.webp",
-    "link": "/"
-  },
-  {
-    "slug": "shkola-turma",
-    "title": "Школа: тюрьма",
-    "movieYear": 2012,
-    "heroImage": "/posters/shkola-turma.webp",
-    "link": "/"
-  },
-  {
-    "slug": "strazhi-galactiki",
-    "title": "Стражи Галактики",
+    "slug": "biven",
+    "title": "Бивень",
     "movieYear": 2014,
-    "heroImage": "/posters/strazhi-galactiki.webp",
+    "heroImage": "/posters/Tusk_2014.jpg",
+    "link": "https://t.me/dedvods/3083"
+  },
+  {
+    "slug": "bolshaya-progulka",
+    "title": "Большая прогулка",
+    "movieYear": 1966,
+    "heroImage": "/posters/Bolshaya_progulka.webp",
+    "link": "https://t.me/dedvods/1991"
+  },
+  {
+    "slug": "bolshoy-kush",
+    "title": "Большой куш",
+    "movieYear": 2000,
+    "heroImage": "/posters/Snatch_2000.jpg",
+    "link": "https://t.me/dedvods/3073"
+  },
+  {
+    "slug": "brat-2",
+    "title": "Брат 2",
+    "movieYear": 2000,
+    "heroImage": "/posters/movie-placeholder.png",
+    "link": "https://t.me/dedvods/1939"
+  },
+  {
+    "slug": "v-otryv",
+    "title": "В отрыв!",
+    "movieYear": 1999,
+    "heroImage": "/posters/Human_Traffic_1999.jpg",
+    "link": "https://t.me/dedvods/2798"
+  },
+  {
+    "slug": "vazhno-ne-upustit",
+    "title": "Не упускай из виду",
+    "movieYear": 1975,
+    "heroImage": "/posters/movie-placeholder.png",
+    "link": "https://t.me/dedvods/1991"
+  },
+  {
+    "slug": "velikolepnyy",
+    "title": "Великолепный",
+    "movieYear": 1973,
+    "heroImage": "/posters/Le_Magnifique_1973.jpg",
+    "link": "https://t.me/dedvods/1715"
+  },
+  {
+    "slug": "vlastelin-kolec-bratstvo-koltsa",
+    "title": "Властелин колец: Братство Кольца",
+    "movieYear": 2001,
+    "heroImage": "/posters/The_Lord_of_the_Rings_The_Fellowship_of_the_Ring_2001.jpg",
+    "link": "https://t.me/dedvods/2617"
+  },
+  {
+    "slug": "vozdushnaya-tyurma",
+    "title": "Воздушная тюрьма",
+    "movieYear": 1997,
+    "heroImage": "/posters/Con_Air_1997.jpg",
+    "link": "https://t.me/dedvods/3368"
+  },
+  {
+    "slug": "vspomnit-vsyo",
+    "title": "Вспомнить всё",
+    "movieYear": 1990,
+    "heroImage": "/posters/Total_Recall_1990.jpg",
+    "link": "https://t.me/dedvods/1288"
+  },
+  {
+    "slug": "gantz",
+    "title": "Ганц",
+    "movieYear": 2004,
+    "heroImage": "/posters/Gantz_2004.jpg",
+    "link": "https://www.youtube.com/playlist?list=PLci7khh_Mr1RiOAQ6dUmQCuOZwsYQGt6m"
+  },
+  {
+    "slug": "golyy-pistolet",
+    "title": "Голый пистолет",
+    "movieYear": 1988,
+    "heroImage": "/posters/The_Naked_Gun_From_the_Files_of_Police_Squad_1988.jpg",
+    "link": "https://t.me/dedvods/2420"
+  },
+  {
+    "slug": "golyy-pistolet-2",
+    "title": "Голый пистолет 2½: Запах страха",
+    "movieYear": 1991,
+    "heroImage": "/posters/The_Naked_Gun_2½_The_Smell_of_Fear_1991.jpg",
+    "link": "https://t.me/dedvods/2504"
+  },
+  {
+    "slug": "golyy-pistolet-3",
+    "title": "Голый пистолет 33⅓: Последний выпад",
+    "movieYear": 1994,
+    "heroImage": "/posters/Naked_gun_33_1_3.webp",
+    "link": "https://t.me/dedvods/2524"
+  },
+  {
+    "slug": "devushki-i-tanki",
+    "title": "Девушки и танки",
+    "movieYear": 2012,
+    "heroImage": "/posters/Girls_und_Panzer_20122013.jpg",
+    "link": "https://t.me/dedvods/2847"
+  },
+  {
+    "slug": "diler",
+    "title": "Дилер",
+    "movieYear": 1996,
+    "heroImage": "/posters/Pusher_1996.jpg",
+    "link": "https://t.me/dedvods/4079"
+  },
+  {
+    "slug": "diler-2",
+    "title": "Дилер 2",
+    "movieYear": 2004,
+    "heroImage": "/posters/Pusher_II_2004.jpg",
+    "link": "https://t.me/dedvods/4115"
+  },
+  {
+    "slug": "dostat-nozhi",
+    "title": "Достать ножи",
+    "movieYear": 2019,
+    "heroImage": "/posters/Knives_Out_2019.jpg",
     "link": "/"
+  },
+  {
+    "slug": "dostat-nozhi-steklyannaya-lukovitsa",
+    "title": "Достать ножи: Стеклянная луковица",
+    "movieYear": 2022,
+    "heroImage": "/posters/Glass_Onion_A_Knives_Out_Mystery_2022_2022.jpg",
+    "link": "https://t.me/dedvods/2926"
+  },
+  {
+    "slug": "drayv-1997",
+    "title": "Драйв",
+    "movieYear": 1997,
+    "heroImage": "/posters/Drive_1997.webp",
+    "link": "https://t.me/dedvods/1689"
+  },
+  {
+    "slug": "drayv-2011",
+    "title": "Драйв",
+    "movieYear": 2011,
+    "heroImage": "/posters/Drive_2011.webp",
+    "link": "https://t.me/dedvods/2448"
+  },
+  {
+    "slug": "dva-v-gorode",
+    "title": "Двое в городе",
+    "movieYear": 1973,
+    "heroImage": "/posters/Two_Men_in_Town_1973.jpg",
+    "link": "https://t.me/dedvods/3382"
+  },
+  {
+    "slug": "dallas-buyers-club",
+    "title": "Далласский клуб покупателей",
+    "movieYear": 2013,
+    "heroImage": "/posters/Dallas_Buyers_Club_2013.jpg",
+    "link": "https://t.me/dedvods/2430"
+  },
+  {
+    "slug": "daun-haus",
+    "title": "Даун Хаус",
+    "movieYear": 2001,
+    "heroImage": "/posters/Daun_haus.webp",
+    "link": "https://t.me/dedvods/1939"
+  },
+  {
+    "slug": "esli-verit-lopotuhinu",
+    "title": "Если верить Лопотухину",
+    "movieYear": 2013,
+    "heroImage": "/posters/Esli_verit_Lopotukhinu_1983.jpg",
+    "link": "https://t.me/dedvods/2686"
+  },
+  {
+    "slug": "eshche-po-odnoy",
+    "title": "Еще по одной",
+    "movieYear": 2020,
+    "heroImage": "/posters/Another_Round_2020.jpg",
+    "link": "https://t.me/dedvods/2926"
+  },
+  {
+    "slug": "zvyozdnye-voyny-1",
+    "title": "Звёздные войны. Эпизод I: Скрытая угроза",
+    "movieYear": 1999,
+    "heroImage": "/posters/Star_Wars_Episode_I_-_The_Phantom_Menace_1999.jpg",
+    "link": "https://t.me/dedvods/2492"
+  },
+  {
+    "slug": "zvyozdnye-voyny-2",
+    "title": "Звёздные войны. Эпизод II: Атака клонов",
+    "movieYear": 2002,
+    "heroImage": "/posters/Star_Wars_Episode_II_-_Attack_of_the_Clones_2002.jpg",
+    "link": "https://t.me/dedvods/2504"
+  },
+  {
+    "slug": "zvyozdnye-voyny-3",
+    "title": "Звёздные войны. Эпизод III: Месть ситхов",
+    "movieYear": 2005,
+    "heroImage": "/posters/Star_Wars_Episode_III_-_Revenge_of_the_Sith_2005.jpg",
+    "link": "https://t.me/dedvods/2524"
+  },
+  {
+    "slug": "zvyozdnye-voyny-4",
+    "title": "Звёздные войны. Эпизод IV: Новая надежда",
+    "movieYear": 1977,
+    "heroImage": "/posters/Star_Wars_Episode_IV_-_A_New_Hope_1977.jpg",
+    "link": "/"
+  },
+  {
+    "slug": "zvyozdnye-voyny-5",
+    "title": "Звёздные войны. Эпизод V: Империя наносит ответный удар",
+    "movieYear": 1980,
+    "heroImage": "/posters/Star_Wars_Episode_V_-_The_Empire_Strikes_Back_1980.jpg",
+    "link": "https://t.me/dedvods/2476"
+  },
+  {
+    "slug": "zvyozdnye-voyny-6",
+    "title": "Звёздные войны. Эпизод VI: Возвращение джедая",
+    "movieYear": 1983,
+    "heroImage": "/posters/Star_Wars_Episode_VI_-_Return_of_the_Jedi_1983.jpg",
+    "link": "/"
+  },
+  {
+    "slug": "zvyozdnye-voyny-7",
+    "title": "Звёздные войны: Пробуждение силы",
+    "movieYear": 2015,
+    "heroImage": "/posters/Star_Wars_Episode_VII_-_The_Force_Awakens_2015.jpg",
+    "link": "https://t.me/dedvods/2537"
+  },
+  {
+    "slug": "zvyozdnye-voyny-8",
+    "title": "Звёздные войны: Последние джедаи",
+    "movieYear": 2017,
+    "heroImage": "/posters/Star_Wars_Episode_VIII_-_The_Last_Jedi_2017.jpg",
+    "link": "/"
+  },
+  {
+    "slug": "zvyozdnye-voyny-9",
+    "title": "Звёздные войны: Скайуокер. Восход",
+    "movieYear": 2019,
+    "heroImage": "/posters/Star_Wars_Episode_IX_-_The_Rise_of_Skywalker_2019.jpg",
+    "link": "https://t.me/dedvods/2552"
+  },
+  {
+    "slug": "izgoy-odin",
+    "title": "Изгой-один. Звёздные войны: Истории",
+    "movieYear": 2016,
+    "heroImage": "/posters/Rogue_One_A_Star_Wars_Story_2016.jpg",
+    "link": "/"
+  },
+  {
+    "slug": "iskazhenie-haruhi-suzumii",
+    "title": "Исчезновение Харухи Судзумии",
+    "movieYear": 2010,
+    "heroImage": "/posters/The_Disappearance_of_Haruhi_Suzumiya_2010.jpg",
+    "link": "https://drive.google.com/file/d/1-WgbYlltpyJjzTP3V09IYvlBIrvaV6uf/view"
+  },
+  {
+    "slug": "kto-est-kto",
+    "title": "Кто есть кто?",
+    "movieYear": 1978,
+    "heroImage": "/posters/movie-placeholder.png",
+    "link": "https://t.me/dedvods/3522"
+  },
+  {
+    "slug": "k-on-film",
+    "title": "K-On! Фильм",
+    "movieYear": 2011,
+    "heroImage": "/posters/K-on_film.webp",
+    "link": "https://t.me/dedvods/2430"
+  },
+  {
+    "slug": "krovavyi-chetverg",
+    "title": "Кровавый четверг",
+    "movieYear": 1998,
+    "heroImage": "/posters/Thursday_1998.jpg",
+    "link": "https://t.me/dedvods/2420"
+  },
+  {
+    "slug": "kostyanoy-tomagavk",
+    "title": "Костяной томагавк",
+    "movieYear": 2015,
+    "heroImage": "/posters/Bone_Tomahawk_2015.jpg",
+    "link": "https://t.me/dedvods/3522"
+  },
+  {
+    "slug": "krepkiy-oreshek",
+    "title": "Крепкий орешек",
+    "movieYear": 1988,
+    "heroImage": "/posters/Die_Hard_1988.jpg",
+    "link": "https://t.me/dedvods/1939"
+  },
+  {
+    "slug": "kruytoy-uchitel-onizuka",
+    "title": "Крутой учитель Онидзука",
+    "movieYear": 1999,
+    "heroImage": "/posters/Great_Teacher_Onizuka_19992000.jpg",
+    "link": "https://www.youtube.com/playlist?list=PLci7khh_Mr1Ra4NCnoIPVlymtFvcQtmv0"
+  },
+  {
+    "slug": "krylyshko-ili-nozhka",
+    "title": "Крылышко или ножка",
+    "movieYear": 1976,
+    "heroImage": "/posters/The_Wing_or_The_Thigh_1976.jpg",
+    "link": "https://t.me/dedvods/1991"
+  },
+  {
+    "slug": "kurer",
+    "title": "Курьер",
+    "movieYear": 1986,
+    "heroImage": "/posters/movie-placeholder.png",
+    "link": "https://t.me/dedvods/3133"
+  },
+  {
+    "slug": "kulak",
+    "title": "Кулак",
+    "movieYear": 1978,
+    "heroImage": "/posters/FIST_1978.jpg",
+    "link": "https://t.me/dedvods/1288"
+  },
+  {
+    "slug": "kollekciya-dzyundzi-ito",
+    "title": "Коллекция Дзюндзи Ито",
+    "movieYear": 2018,
+    "heroImage": "/posters/Junji_Ito_Collection_2018.jpg",
+    "link": "https://www.youtube.com/playlist?list=PLci7khh_Mr1RiOAQ6dUmQCuOZwsYQGt6m&index=4"
+  },
+  {
+    "slug": "maks-peyn",
+    "title": "Макс Пейн",
+    "movieYear": 2008,
+    "heroImage": "/posters/Max_Payne_2008.jpg",
+    "link": "https://t.me/dedvods/2947"
+  },
+  {
+    "slug": "mandalorets",
+    "title": "Мандалорец",
+    "movieYear": 2019,
+    "heroImage": "/posters/The_Mandalorian_2019.jpg",
+    "link": "https://t.me/dedvods/2595"
+  },
+  {
+    "slug": "melanholiya-haruhi-suzumii",
+    "title": "Меланхолия Харухи Судзумии",
+    "movieYear": 2006,
+    "heroImage": "/posters/The_Melancholy_of_Haruhi_Suzumiya_20062009.jpg",
+    "link": "https://www.youtube.com/playlist?list=PLci7khh_Mr1QoLYYXR_ekjyX9pWe7hiuL"
+  },
+  {
+    "slug": "morbius",
+    "title": "Морбиус",
+    "movieYear": 2022,
+    "heroImage": "/posters/Morbius_2022.jpg",
+    "link": "https://t.me/dedvods/2420"
+  },
+  {
+    "slug": "naruto",
+    "title": "Наруто",
+    "movieYear": 2002,
+    "heroImage": "/posters/Naruto_20022007.jpg",
+    "link": "https://drive.google.com/file/d/13cSI2neOVGGaU0tSBrJdd7CstxT1Khuc/view"
+  },
+  {
+    "slug": "ne-mozhet-byt",
+    "title": "Не может быть!",
+    "movieYear": 1975,
+    "heroImage": "/posters/It_Cant_Be_1975.jpg",
+    "link": "https://t.me/dedvods/2947"
+  },
+  {
+    "slug": "nebesnyy-legion",
+    "title": "Небесный легион",
+    "movieYear": 2005,
+    "heroImage": "/posters/movie-placeholder.png",
+    "link": "https://t.me/dedvods/1715"
+  },
+  {
+    "slug": "ne-grozi-yuzhnomu-centru",
+    "title": "Не грози южному централу, попивая сок у себя в квартале",
+    "movieYear": 1995,
+    "heroImage": "/posters/Dont_Be_a_Menace_to_South_Central_While_Drinking_Your_Juice_in_the_Hood_1996.jpg",
+    "link": "https://t.me/dedvods/2420"
+  },
+  {
+    "slug": "nevarimaya-tyazhest-taIanta",
+    "title": "Невыносимая тяжесть огромного таланта",
+    "movieYear": 2022,
+    "heroImage": "/posters/The_Unbearable_Weight_of_Massive_Talent_2022.jpg",
+    "link": "https://t.me/dedvods/3382"
+  },
+  {
+    "slug": "nefarius",
+    "title": "Нефариус",
+    "movieYear": 2023,
+    "heroImage": "/posters/Nefarious_2023.jpg",
+    "link": "https://t.me/streamvod_links/5146"
+  },
+  {
+    "slug": "neshto",
+    "title": "Нечто",
+    "movieYear": 1982,
+    "heroImage": "/posters/The_Thing_1982.jpg",
+    "link": "https://t.me/dedvods/2448"
+  },
+  {
+    "slug": "obi-van-kenobi",
+    "title": "Оби-Ван Кеноби",
+    "movieYear": 2022,
+    "heroImage": "/posters/Obi-Wan_Kenobi_2022.jpg",
+    "link": "https://t.me/dedvods/2605"
+  },
+  {
+    "slug": "okno-v-parizh",
+    "title": "Окно в Париж",
+    "movieYear": 1993,
+    "heroImage": "/posters/Window_to_Paris_1993.jpg",
+    "link": "https://t.me/dedvods/1991"
+  },
+  {
+    "slug": "osk-r",
+    "title": "Оскар",
+    "movieYear": 1967,
+    "heroImage": "/posters/movie-placeholder.png",
+    "link": "https://t.me/dedvods/246"
+  },
+  {
+    "slug": "otkroyte-politsiya",
+    "title": "Откройте, полиция!",
+    "movieYear": 1984,
+    "heroImage": "/posters/movie-placeholder.png",
+    "link": "https://t.me/dedvods/268"
+  },
+  {
+    "slug": "papa-dosvidanos",
+    "title": "Папа-досвиданья",
+    "movieYear": 2012,
+    "heroImage": "/posters/Thats_My_Boy_2012.jpg",
+    "link": "https://t.me/dedvods/4115"
+  },
+  {
+    "slug": "patrul-vremeni",
+    "title": "Патруль времени",
+    "movieYear": 1994,
+    "heroImage": "/posters/Timecop_1994.jpg",
+    "link": "https://t.me/dedvods/1288"
+  },
+  {
+    "slug": "poimal-menya",
+    "title": "Поймай меня, если сможешь",
+    "movieYear": 2002,
+    "heroImage": "/posters/Catch_Me_If_You_Can_2002.jpg",
+    "link": "https://t.me/dedvods/4838"
+  },
+  {
+    "slug": "poshel-ty-freddi",
+    "title": "Пошел ты, Фредди",
+    "movieYear": 2001,
+    "heroImage": "/posters/Freddy_Got_Fingered_2001.jpg",
+    "link": "https://t.me/dedvods/2738"
+  },
+  {
+    "slug": "prizraki-svobody",
+    "title": "Призрак свободы",
+    "movieYear": 1974,
+    "heroImage": "/posters/The_Phantom_of_Liberty_1974.jpg",
+    "link": "https://t.me/dedvods/1715"
+  },
+  {
+    "slug": "prisheltsy",
+    "title": "Пришельцы",
+    "movieYear": 1993,
+    "heroImage": "/posters/The_Visitors_1993.jpg",
+    "link": "https://t.me/dedvods/283"
+  },
+  {
+    "slug": "razborka-v-bronkse",
+    "title": "Разборка в Бронксе",
+    "movieYear": 1995,
+    "heroImage": "/posters/Rumble_in_the_Bronx_1995.jpg",
+    "link": "https://t.me/dedvods/1288"
+  },
+  {
+    "slug": "realnye-upyri",
+    "title": "Реальные упыри",
+    "movieYear": 2014,
+    "heroImage": "/posters/What_We_Do_in_the_Shadows_2014.jpg",
+    "link": "https://t.me/dedvods/4075"
+  },
+  {
+    "slug": "rokki-4",
+    "title": "Рокки 4",
+    "movieYear": 1985,
+    "heroImage": "/posters/Rocky_IV_1985.jpg",
+    "link": "https://t.me/dedvods/3368"
+  },
+  {
+    "slug": "samadura",
+    "title": "Сама дура",
+    "movieYear": 2020,
+    "heroImage": "/posters/Sama_dura.webp",
+    "link": "https://t.me/dedvods/2891"
+  },
+  {
+    "slug": "sovershenno-sekretno",
+    "title": "Совершенно секретно!",
+    "movieYear": 1984,
+    "heroImage": "/posters/Top_Secret_1984.jpg",
+    "link": "https://t.me/dedvods/2738"
+  },
+  {
+    "slug": "smertelnaya-bitva",
+    "title": "Смертельная битва",
+    "movieYear": 1995,
+    "heroImage": "/posters/movie-placeholder.png",
+    "link": "https://t.me/dedvods/246"
+  },
+  {
+    "slug": "smertelnaya-bitva-2",
+    "title": "Смертельная битва 2: Истребление",
+    "movieYear": 1997,
+    "heroImage": "/posters/Mortal_Kombat_Annihilation_1997.jpg",
+    "link": "https://t.me/dedvods/283"
+  },
+  {
+    "slug": "skala",
+    "title": "Скала",
+    "movieYear": 1996,
+    "heroImage": "/posters/The_Rock_1996.jpg",
+    "link": "https://t.me/dedvods/3522"
+  },
+  {
+    "slug": "skorost",
+    "title": "Скорость",
+    "movieYear": 1994,
+    "heroImage": "/posters/Speed_1994.jpg",
+    "link": "https://t.me/dedvods/1288"
+  },
+  {
+    "slug": "solo",
+    "title": "Хан Соло. Звёздные войны: Истории",
+    "movieYear": 2018,
+    "heroImage": "/posters/Solo_A_Star_Wars_Story_2018.jpg",
+    "link": "https://t.me/dedvods/2563"
+  },
+  {
+    "slug": "strazhi-galaktiki",
+    "title": "Стражи галактики",
+    "movieYear": 2014,
+    "heroImage": "/posters/Guardians_of_the_Galaxy_2014.jpg",
+    "link": "https://t.me/streamvod/617"
+  },
+  {
+    "slug": "sudya-dredd",
+    "title": "Судья Дредд",
+    "movieYear": 1995,
+    "heroImage": "/posters/Judge_Dredd_1995.jpg",
+    "link": "/"
+  },
+  {
+    "slug": "super-politsayskie",
+    "title": "Суперполицейские",
+    "movieYear": 2001,
+    "heroImage": "/posters/Super_Troopers_2001.jpg",
+    "link": "https://t.me/dedvods/3382"
+  },
+  {
+    "slug": "schastlivi-vmeste",
+    "title": "Счастливы вместе",
+    "movieYear": 2006,
+    "heroImage": "/posters/movie-placeholder.png",
+    "link": "https://t.me/dedvods/2730"
+  },
+  {
+    "slug": "taksi-2",
+    "title": "Такси 2",
+    "movieYear": 2000,
+    "heroImage": "/posters/Taxi_2_2000.jpg",
+    "link": "https://t.me/dedvods/126"
+  },
+  {
+    "slug": "taksi-3",
+    "title": "Такси 3",
+    "movieYear": 2003,
+    "heroImage": "/posters/Taxi_3_2003.jpg",
+    "link": "https://t.me/dedvods/2430"
+  },
+  {
+    "slug": "taksist",
+    "title": "Таксист",
+    "movieYear": 2017,
+    "heroImage": "/posters/movie-placeholder.png",
+    "link": "https://t.me/dedvods/2613"
+  },
+  {
+    "slug": "takie-raznye-bliznetsy",
+    "title": "Такие разные близнецы",
+    "movieYear": 2011,
+    "heroImage": "/posters/Jack_and_Jill_2011.jpg",
+    "link": "https://t.me/dedvods/3522"
+  },
+  {
+    "slug": "terminator",
+    "title": "Терминатор",
+    "movieYear": 1984,
+    "heroImage": "/posters/The_Terminator_1984.jpg",
+    "link": "https://t.me/dedvods/2149"
+  },
+  {
+    "slug": "tetrad-smerti",
+    "title": "Тетрадь смерти",
+    "movieYear": 2006,
+    "heroImage": "/posters/Death_Note_20062007.jpg",
+    "link": "https://drive.google.com/file/d/15Almoun1Hz77dqNX0Q11wsKZ86il1TnT/view"
+  },
+  {
+    "slug": "trener",
+    "title": "Тренер",
+    "movieYear": 2001,
+    "heroImage": "/posters/Mike_Bassett_England_Manager_2001.jpg",
+    "link": "https://t.me/dedvods/1991"
   },
   {
     "slug": "ubludok",
     "title": "Ублюдок",
-    "movieYear": 2011,
-    "heroImage": "/posters/ubludok.webp",
+    "movieYear": 2014,
+    "heroImage": "/posters/Creep_2014.jpg",
+    "link": "https://t.me/streamvod_links/5158"
+  },
+  {
+    "slug": "ulitsy-razbityh-fonarey",
+    "title": "Улицы разбитых фонарей",
+    "movieYear": 1998,
+    "heroImage": "/posters/Streets_of_Broken_Lights_19982019.jpg",
+    "link": "https://t.me/dedvods/268"
+  },
+  {
+    "slug": "flandriyskiy-pes",
+    "title": "Фландрийский пёс",
+    "movieYear": 1997,
+    "heroImage": "/posters/The_Dog_of_Flanders_1997.jpg",
+    "link": "https://t.me/dedvods/2798"
+  },
+  {
+    "slug": "fontan",
+    "title": "Фонтан",
+    "movieYear": 1988,
+    "heroImage": "/posters/movie-placeholder.png",
+    "link": "https://t.me/dedvods/1991"
+  },
+  {
+    "slug": "chas-pik",
+    "title": "Час Пик",
+    "movieYear": 1998,
+    "heroImage": "/posters/Rush_Hour_1998.jpg",
+    "link": "https://t.me/dedvods/126"
+  },
+  {
+    "slug": "chas-pik-2",
+    "title": "Час Пик 2",
+    "movieYear": 2001,
+    "heroImage": "/posters/Rush_Hour_2_2001.jpg",
     "link": "/"
+  },
+  {
+    "slug": "chas-pik-3",
+    "title": "Час Пик 3",
+    "movieYear": 2007,
+    "heroImage": "/posters/Rush_Hour_3_2007.jpg",
+    "link": "https://t.me/dedvods/2947"
+  },
+  {
+    "slug": "chak-i-larri",
+    "title": "Чак и Ларри: Пожарная свадьба",
+    "movieYear": 2007,
+    "heroImage": "/posters/I_Now_Pronounce_You_Chuck_Larry_2007.jpg",
+    "link": "https://t.me/dedvods/4800"
+  },
+  {
+    "slug": "shirli-myrli",
+    "title": "Ширли-мырли",
+    "movieYear": 1995,
+    "heroImage": "/posters/Shirli-myrli_1995.jpg",
+    "link": "https://t.me/dedvods/214"
+  },
+  {
+    "slug": "shkola-tyurma",
+    "title": "Школа тюрьма",
+    "movieYear": 2015,
+    "heroImage": "/posters/Prison_School_20152016.jpg",
+    "link": "https://www.youtube.com/playlist?list=PLci7khh_Mr1RiOAQ6dUmQCuOZwsYQGt6m&index=3"
   }
 ]
-
-
