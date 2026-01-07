@@ -34,7 +34,8 @@ const cards = homeCards as HomeCard[];
             cards.map((card) => (
               <li class="p-3 border border-dashed lg:p-4">
                 <a
-                  href={`/films/${card.slug}/`}
+                  href={card.link}
+                  target="_blank"
                   class="group flex flex-col gap-1"
                 >
                   <img
