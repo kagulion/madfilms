@@ -2,7 +2,7 @@
 const today = new Date();
 import "../styles/global.css";
 import {
-  SITE_TITLE,
+  SITE_VERSION,
   SITE_FULL_TITLE,
   SITE_ABOUT,
   TELEGRAM_LINK,
@@ -15,7 +15,7 @@ import {
 		<div class="w-full h-px bg-stone-700"></div>
 		<div class="flex justify-between items-center">
 			<p class="font-medium text-xs text-stone-50">
-				{SITE_FULL_TITLE}, {today.getFullYear()}
+				{SITE_FULL_TITLE}, {SITE_VERSION} // {today.getFullYear()}
 			</p>
 			<a
 				href={TELEGRAM_LINK}
