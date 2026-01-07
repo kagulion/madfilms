@@ -26,9 +26,9 @@ const cards = homeCards as HomeCard[];
     <main
       class="m-0 px-4 pt-4 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
     >
-      <section class="mx-auto mb-5 md:max-w-5xl">
+      <section class="mx-auto mb-5 max-w-480">
         <ul
-          class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 lg:gap-5"
+          class="grid grid-cols-2 gap-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-10 lg:gap-5"
         >
           {
             cards.map((card) => (
@@ -39,7 +39,7 @@ const cards = homeCards as HomeCard[];
                   class="group flex flex-col gap-1"
                 >
                   <img
-                    class="h-52 object-cover lg:h-56 w-full"
+                    class="h-52 object-cover md:h-36 lg:h-40 xl:h-44 2xl:h-52 w-full"
                     src={card.heroImage}
                     alt="Постер фильма"
                     loading="lazy"
@@ -47,7 +47,7 @@ const cards = homeCards as HomeCard[];
                   <p class="text-xs text-stone-500 lg:text-sm">
                     {card.movieYear}
                   </p>
-                  <h4 class="font-bold uppercase text-base text-stone-950 lg:text-lg/6 group-hover:last:text-yellow-500 transition-colors duration-300">
+                  <h4 class="truncate font-bold uppercase text-base text-stone-950 lg:text-lg/6 group-hover:last:text-yellow-500 transition-colors duration-300">
                     {card.title}
                   </h4>
                 </a>
