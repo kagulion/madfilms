@@ -7,7 +7,16 @@ import Header from "../components/Header.astro";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, link, iframe, heroImage, movieYear } = Astro.props;
+const {
+  title,
+  description,
+  link,
+  tgLink,
+  vkLink,
+  iframe,
+  heroImage,
+  movieYear,
+} = Astro.props;
 ---
 
 <html lang="ru">
@@ -18,49 +27,49 @@ const { title, description, link, iframe, heroImage, movieYear } = Astro.props;
   <body>
     <Header />
     <main
-      class="min-h-screen m-0 px-4 py-4 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
+      class="min-h-screen m-0 p-5 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
     >
-      <article class="mx-auto p-6 border border-dashed md:max-w-5xl">
-        <div class="flex flex-col gap-5 sm:flex-row sm:gap-6">
-          <div>
-            {
-              heroImage && (
-                <Image
-                  class="h-112 object-cover"
-                  src={heroImage}
-                  alt="Постер фильма"
-                />
-              )
-            }
+      <article class="mx-auto p-5 border border-dashed md:max-w-5xl lg:p-6">
+        <div class="flex flex-col gap-5 lg:gap-6">
+          <div class="flex flex-col gap-2">
+            <h1 class="uppercase font-bold text-2xl text-stone-950">
+              Мэддисон смотрит «{title}»
+            </h1>
+            <span class="text-xl text-stone-500">
+              {movieYear}
+            </span>
           </div>
-          <div class="flex flex-col gap-5 sm:gap-6">
-            <div class="flex flex-col gap-2">
-              <h1 class="uppercase font-bold text-2xl text-stone-950">
-                {title}
-              </h1>
-              <span class="text-xl text-stone-500">
-                {movieYear}
-              </span>
+          {iframe && <div set:html={iframe} />}
+          <div class="flex flex-col gap-3">
+            <h4 class="font-semibold text-xl text-stone-950">
+              Резервные ссылки
+            </h4>
+            <div class="flex gap-3">
+              {
+                tgLink && (
+                  <a
+                    href={tgLink}
+                    target="_blank"
+                    class="inline-block w-fit h-fit px-5 py-3 text-base font-semibold bg-yellow-400 text-stone-950 hover:border-b-2 hover:shadow-sm hover:shadow-yellow-400 transition-all duration-100"
+                  >
+                    Telegram
+                  </a>
+                )
+              }
+              {
+                vkLink && (
+                  <a
+                    href={vkLink}
+                    target="_blank"
+                    class="inline-block w-fit h-fit px-5 py-3 text-base font-semibold bg-yellow-400 text-stone-950 hover:border-b-2 hover:shadow-sm hover:shadow-yellow-400 transition-all duration-100"
+                  >
+                    Вконтакте
+                  </a>
+                )
+              }
             </div>
-            <a
-              href={link}
-              target="_blank"
-              class="inline-block w-fit h-fit px-5 py-3 text-base font-semibold bg-yellow-400 text-stone-950 hover:border-b-2 hover:shadow-sm hover:shadow-yellow-400 transition-all duration-100"
-              >Ссылка на просмотр</a
-            >
           </div>
         </div>
-        {
-          iframe && (
-            <div class="mt-8">
-              <p class="text-lg font-semibold mb-4">Трейлер/фрагмент:</p>
-              <div
-                set:html={iframe}
-                class="w-full aspect-video max-w-4xl mx-auto"
-              />
-            </div>
-          )
-        }
       </article>
     </main>
     <Footer />
