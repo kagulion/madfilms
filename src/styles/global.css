@@ -39,3 +39,9 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
