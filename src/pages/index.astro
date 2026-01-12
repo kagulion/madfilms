@@ -24,30 +24,31 @@ const cards = homeCards as HomeCard[];
   <body>
     <Header />
     <main
-      class="m-0 px-4 pt-4 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
+      class="m-0 px-4 pt-4"
     >
       <section class="mx-auto mb-5 max-w-480">
+        <h1 class="mx-auto max-w-5xl mb-4 font-semibold text-xl text-white sm:mb-6 sm:text-2xl">{SITE_DESCRIPTION}</h1>
         <ul
           class="grid grid-cols-2 gap-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-10 lg:gap-5"
         >
           {
             cards.map((card) => (
-              <li class="p-3 border border-dashed lg:p-4">
+              <li class="p-2 pb-4 rounded-xl bg-stone-800">
                 <a
                   href={card.link}
                   target="_blank"
-                  class="group flex flex-col gap-1"
+                  class="group flex flex-col gap-2"
                 >
                   <img
-                    class="h-52 object-cover md:h-36 lg:h-40 xl:h-44 2xl:h-52 w-full"
+                    class="h-52 object-cover rounded-lg lg:h-56 group-hover:scale-103 transition-transform duration-300"
                     src={card.heroImage}
                     alt="Постер фильма"
                     loading="lazy"
                   />
-                  <p class="text-xs text-stone-500 lg:text-sm">
+                  <p class="text-xs text-lime-400 lg:text-sm">
                     {card.movieYear}
                   </p>
-                  <h4 class="truncate font-bold uppercase text-base text-stone-950 lg:text-lg/6 group-hover:last:text-yellow-500 transition-colors duration-300">
+                  <h4 class="font-bold uppercase leading-5 text-white lg:text-lg group-hover:text-lime-400 transition-colors duration-300">
                     {card.title}
                   </h4>
                 </a>
