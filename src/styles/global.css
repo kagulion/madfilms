@@ -13,31 +13,36 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Bold.ttf") format("ttf");
+  font-family: "IBM Plex Mono", monospace;
+  src: url("/fonts/IBMPlexMono-Bold.ttf") format("truetype");
   font-weight: 700;
-  font-style: bold;
-  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Semibold.ttf") format("ttf");
+  font-family: "IBM Plex Mono", monospace;
+  src: url("/fonts/IBMPlexMono-Semibold.ttf") format("truetype");
   font-weight: 600;
-  font-style: semibold;
-  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Regular.ttf") format("ttf");
+  font-family: "IBM Plex Mono", monospace;
+  src: url("/fonts/IBMPlexMono-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono", monospace;
+  src: url("/fonts/IBMPlexMono-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   @apply bg-stone-900 bg-[url('/dust-texture.png')] bg-repeat;
 }
 
