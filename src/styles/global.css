@@ -38,6 +38,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  @apply bg-stone-900 bg-[url('/dust-texture.png')] bg-repeat;
 }
 
 iframe {
