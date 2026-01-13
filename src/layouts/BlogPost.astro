@@ -26,31 +26,29 @@ const {
 
   <body>
     <Header />
-    <main
-      class="min-h-screen m-0 p-5 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
-    >
-      <article class="mx-auto p-5 border border-dashed md:max-w-5xl lg:p-6">
-        <div class="flex flex-col gap-5 lg:gap-6">
+    <main class="m-0 py-5 px-4">
+      <article
+        class="mx-auto px-5 pt-4 pb-5 rounded-xl bg-stone-800 md:max-w-5xl lg:px-6 lg:py-5"
+      >
+        <div class="flex flex-col gap-4 lg:gap-5">
           <div class="flex flex-col gap-2">
-            <h1 class="uppercase font-bold text-2xl text-stone-950">
+            <h1 class="font-semibold text-xl text-white lg:text-2xl">
               Мэддисон смотрит «{title}»
             </h1>
-            <span class="text-xl text-stone-500">
+            <span class="text-lg text-lime-400">
               {movieYear}
             </span>
           </div>
           {iframe && <div set:html={iframe} />}
           <div class="flex flex-col gap-3">
-            <h4 class="font-semibold text-xl text-stone-950">
-              Резервные ссылки
-            </h4>
+            <h4 class="font-semibold text-lg text-white lg:text-xl">Резервные ссылки</h4>
             <div class="flex gap-3">
               {
                 tgLink && (
                   <a
                     href={tgLink}
                     target="_blank"
-                    class="inline-block w-fit h-fit px-5 py-3 text-base font-semibold bg-yellow-400 text-stone-950 hover:border-b-2 hover:shadow-sm hover:shadow-yellow-400 transition-all duration-100"
+                    class="inline-block w-fit h-fit px-3 pt-1.5 pb-2 rounded-lg text-sm font-semibold bg-lime-400 text-stone-950 lg:text-base lg:px-4 lg:pt-2 lg:pb-3 hover:shadow-sm hover:shadow-lime-400 transition-all duration-300"
                   >
                     Telegram
                   </a>
@@ -61,7 +59,7 @@ const {
                   <a
                     href={vkLink}
                     target="_blank"
-                    class="inline-block w-fit h-fit px-5 py-3 text-base font-semibold bg-yellow-400 text-stone-950 hover:border-b-2 hover:shadow-sm hover:shadow-yellow-400 transition-all duration-100"
+                    class="inline-block w-fit h-fit px-3 pt-1.5 pb-2 rounded-lg text-sm font-semibold bg-lime-400 text-stone-950 hover:shadow-sm hover:shadow-lime-400 transition-all duration-300"
                   >
                     Вконтакте
                   </a>
@@ -72,6 +70,9 @@ const {
         </div>
       </article>
     </main>
+    <div class="flex justify-center">
+      <img src="/vault-boy.png" alt="Vault Boy" />
+    </div>
     <Footer />
   </body>
 </html>
