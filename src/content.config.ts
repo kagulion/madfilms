@@ -13,6 +13,7 @@ const blog = defineCollection({
 			tgLink: z.string().url().optional(),
 			vkLink: z.string().url().optional(),
 			rutubeLink: z.string().url().optional(),
+			youtubeLink: z.string().url().optional(),
 			iframe: z.string().optional(),
 			movieYear: z.string().optional(),
 			// Transform string to Date object

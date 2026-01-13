@@ -14,6 +14,7 @@ const {
   tgLink,
   vkLink,
   rutubeLink,
+  youtubeLink,
   iframe,
   heroImage,
   movieYear,
@@ -42,7 +43,9 @@ const {
           </div>
           {iframe && <div set:html={iframe} />}
           <div class="flex flex-col gap-3">
-            <h4 class="font-semibold text-lg text-white lg:text-xl">Резервные ссылки</h4>
+            <h4 class="font-semibold text-lg text-white lg:text-xl">
+              Резервные ссылки
+            </h4>
             <div class="flex gap-3">
               {
                 tgLink && (
@@ -67,13 +70,24 @@ const {
                 )
               }
               {
-                vkLink && (
+                rutubeLink && (
                   <a
                     href={rutubeLink}
                     target="_blank"
                     class="inline-block w-fit h-fit px-3 pt-1.5 pb-2 rounded-lg text-sm font-semibold bg-lime-400 text-stone-950 lg:text-base lg:px-4 lg:pt-2 lg:pb-3 hover:shadow-sm hover:shadow-lime-400 lg:hover:shadow-md transition-all duration-300"
                   >
                     Rutube
+                  </a>
+                )
+              }
+              {
+                youtubeLink && (
+                  <a
+                    href={youtubeLink}
+                    target="_blank"
+                    class="inline-block w-fit h-fit px-3 pt-1.5 pb-2 rounded-lg text-sm font-semibold bg-lime-400 text-stone-950 lg:text-base lg:px-4 lg:pt-2 lg:pb-3 hover:shadow-sm hover:shadow-lime-400 lg:hover:shadow-md transition-all duration-300"
+                  >
+                    Youtube
                   </a>
                 )
               }
