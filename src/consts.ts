@@ -1,5 +1,5 @@
 // Данные сайта
-export const SITE_VERSION = "1.1";
+export const SITE_VERSION = "1.2";
 export const SITE_TITLE = "Madfilms";
 export const SITE_FULL_TITLE = "Maddyson Films";
 export const SITE_DESCRIPTION = "Фильмы с комментариями Ильи Мэддисона";
