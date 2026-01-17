@@ -1,0 +1,96 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import BlogPost from "../layouts/BlogPost.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+import homeCards from "../data/homeCards.json";
+
+type HomeCard = {
+  slug: string;
+  title: string;
+  movieYear: number;
+  heroImage: string;
+  link: string;
+};
+
+export async function getStaticPaths() {
+  const cards = homeCards as HomeCard[];
+  const posts = await getCollection('blog');
+  
+  const filmPaths = cards.map((card) => ({
+    params: { slug: card.slug },
+    props: { type: 'film', data: card },
+  }));
+  
+  const postPaths = posts.map((post) => ({
+    params: { slug: post.id },
+    props: { type: 'post', data: post },
+  }));
+  
+  return [...filmPaths, ...postPaths];
+}
+
+const { slug } = Astro.params;
+const { type, data } = Astro.props;
+
+let film: HomeCard | null = null;
+let post: CollectionEntry<'blog'> | null = null;
+let Content: any = null;
+
+if (type === 'film') {
+  film = data as HomeCard;
+} else if (type === 'post') {
+  post = data as CollectionEntry<'blog'>;
+  const rendered = await render(post);
+  Content = rendered.Content;
+}
+---
+
+{type === 'film' && film ? (
+  <html lang="ru">
+    <head>
+      <BaseHead
+        title={`${film.title} — ${SITE_TITLE}`}
+        description={SITE_DESCRIPTION}
+      />
+    </head>
+    <body>
+      <Header />
+      <main
+        class="m-0 h-screen px-4 py-6 bg-stone-100 bg-[url('/dust-texture.png')] bg-repeat"
+      >
+        <article class="mx-auto flex flex-col p-6 gap-6 border border-dashed max-w-5xl">
+          <div class="flex flex-col gap-3 md:flex-row md:items-start md:gap-6">
+            <img
+              class="w-full max-w-xs md:w-64 md:h-96 object-cover"
+              src={film.heroImage}
+              alt={`Постер фильма ${film.title}`}
+              loading="lazy"
+            />
+            <div class="flex-1 flex flex-col gap-5 sm:gap-6">
+              <div class="flex flex-col gap-2">
+                <h1 class="uppercase font-bold text-2xl text-stone-950">
+                  {film.title}
+                </h1>
+                <span class="text-xl text-stone-500">{film.movieYear}</span>
+              </div>
+              <a
+                href={film.link}
+                target="_blank"
+                class="inline-block w-fit h-fit px-5 py-3 text-base font-semibold bg-yellow-400 text-stone-950 hover:border-b-2 hover:shadow-sm hover:shadow-yellow-400 transition-all duration-100"
+                >Ссылка на просмотр</a
+              >
+            </div>
+          </div>
+        </article>
+      </main>
+      <Footer />
+    </body>
+  </html>
+) : type === 'post' && post && Content ? (
+  <BlogPost {...post.data}>
+    <Content />
+  </BlogPost>
+) : null}
