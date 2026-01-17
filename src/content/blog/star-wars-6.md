@@ -4,7 +4,7 @@ description: "В шестом эпизоде «Звездных войн» Да�
 youtubeLink: https://youtu.be/12rFaH-CpeE?si=cxngtIdNKrXBUs4L
 rutubeLink: https://rutube.ru/video/b4e446485cc85fc1ba38757853871a94/?r=wd
 vkLink: https://vkvideo.ru/video-219286110_456239544
-tgLink: https://t.me/dedvods/2492
+tgLink: https://t.me/dedvods/2524
 iframe: '<iframe src="https://vkvideo.ru/video_ext.php?oid=-235267106&id=456239029&hash=09020368a669881e&hd=3" width="1280" height="720" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>'
 pubDate: "Jul 4 2022"
 movieYear: "1983"
