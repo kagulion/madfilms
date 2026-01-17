@@ -1,5 +1,5 @@
 // Данные сайта
-export const SITE_VERSION = "1.0";
+export const SITE_VERSION = "1.1";
 export const SITE_TITLE = "Madfilms";
 export const SITE_FULL_TITLE = "Maddyson Films";
 export const SITE_DESCRIPTION = "Фильмы с комментариями Ильи Мэддисона";
@@ -8,4 +8,4 @@ export const SITE_ABOUT =
 
 // Ссылки
 export const TELEGRAM_LINK = "https://t.me/maddysonfilms";
-export const VKVIDEO_LINK = "https://vkvideo.ru/@maddysonfilms";
+export const VKVIDEO_LINK = "https://vk.com/maddysonfilms";
