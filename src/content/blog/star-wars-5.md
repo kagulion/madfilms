@@ -7,4 +7,5 @@ iframe: '<iframe src="https://vkvideo.ru/video_ext.php?oid=-235267106&id=4562390
 pubDate: "Jul 5 2022"
 movieYear: "1980"
 heroImage: "../../assets/Star_Wars_1980.webp"
+collection: Звёздные войны
 ---

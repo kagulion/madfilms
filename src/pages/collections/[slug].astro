@@ -1,0 +1,147 @@
+---
+import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
+import BaseHead from "../../components/BaseHead.astro";
+import Footer from "../../components/Footer.astro";
+import Header from "../../components/Header.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
+import collections from "../../data/collections.json";
+import homeCards from "../../data/homeCards.json";
+
+type Collection = {
+  slug: string;
+  title: string;
+  heroImage: string;
+};
+
+type HomeCard = {
+  slug: string;
+  title: string;
+  movieYear: number;
+  heroImage: string;
+  link: string;
+  collection?: string;
+};
+
+export async function getStaticPaths() {
+  const collectionsList = collections as Collection[];
+  
+  return collectionsList.map((collection) => ({
+    params: { slug: collection.slug },
+    props: { collection },
+  }));
+}
+
+const { slug } = Astro.params;
+
+const collectionsList = collections as Collection[];
+const currentCollection = collectionsList.find((c) => c.slug === slug);
+
+if (!currentCollection) {
+  return Astro.redirect("/collections/");
+}
+
+// Получаем фильмы из markdown коллекции
+const posts = await getCollection("blog");
+const postsInCollection = posts.filter(
+  (post) => post.data.collection === currentCollection.title
+);
+
+// Получаем фильмы из JSON коллекции
+const cards = homeCards as HomeCard[];
+const cardsInCollection = cards.filter(
+  (card) => card.collection === currentCollection.title
+);
+
+// Объединяем все фильмы
+const allMovies = [
+  ...postsInCollection.map((post) => ({
+    id: post.id,
+    title: post.data.title,
+    movieYear: post.data.movieYear,
+    heroImage: post.data.heroImage,
+    slug: post.id,
+    type: "post" as const,
+  })),
+  ...cardsInCollection.map((card) => ({
+    id: card.slug,
+    title: card.title,
+    movieYear: card.movieYear,
+    heroImage: card.heroImage,
+    slug: card.slug,
+    type: "card" as const,
+  })),
+];
+---
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <BaseHead
+      title={`${currentCollection.title} — Коллекции — ${SITE_TITLE}`}
+      description={SITE_DESCRIPTION}
+    />
+  </head>
+  <body>
+    <Header />
+    <main class="m-0 px-4 pt-4">
+      <section class="mx-auto mb-5 max-w-480">
+        <div class="mb-6">
+          <a
+            href="/collections/"
+            class="inline-block mb-4 text-lime-400 hover:text-lime-800 transition-colors duration-300"
+          >
+            ← Назад к коллекциям
+          </a>
+          <h1
+            class="mx-auto max-w-5xl mb-4 font-semibold text-xl text-white sm:mb-6 sm:text-2xl"
+          >
+            {currentCollection.title}
+          </h1>
+        </div>
+        <ul
+          class="grid grid-cols-2 gap-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-10 lg:gap-5"
+        >
+          {
+            allMovies.map((movie) => (
+              <li class="p-2 pb-4 rounded-xl bg-stone-800">
+                <a href={`/${movie.slug}/`} class="group flex flex-col gap-2">
+                  {movie.heroImage && (
+                    movie.type === "post" ? (
+                      <Image
+                        class="h-52 object-cover rounded-lg lg:h-56 group-hover:scale-103 transition-transform duration-300"
+                        src={movie.heroImage}
+                        alt="Постер фильма"
+                      />
+                    ) : (
+                      <img
+                        class="h-52 object-cover rounded-lg lg:h-56 group-hover:scale-103 transition-transform duration-300"
+                        src={movie.heroImage}
+                        alt="Постер фильма"
+                        loading="lazy"
+                      />
+                    )
+                  )}
+                  <div class="flex flex-col px-2 gap-1">
+                    {movie.movieYear && (
+                      <p class="text-xs text-lime-400 lg:text-sm">
+                        {movie.movieYear}
+                      </p>
+                    )}
+                    <h4 class="font-bold uppercase leading-5 text-white lg:text-lg group-hover:text-lime-400 transition-colors duration-300">
+                      {movie.title}
+                    </h4>
+                  </div>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+      <div class="flex justify-center">
+        <img src="/vault-boy.png" alt="Vault Boy" />
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -9,4 +9,5 @@ iframe: '<iframe src="https://vkvideo.ru/video_ext.php?oid=-235267106&id=4562390
 pubDate: "Jul 3 2022"
 movieYear: "1999"
 heroImage: "../../assets/Star_Wars_1999.webp"
+collection: Звёздные войны
 ---

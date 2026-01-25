@@ -9,4 +9,5 @@ iframe: '<iframe src="https://vkvideo.ru/video_ext.php?oid=-235267106&id=4562390
 pubDate: "Jul 1 2022"
 movieYear: "2005"
 heroImage: "../../assets/Star_Wars_2005.webp"
+collection: Звёздные войны
 ---
