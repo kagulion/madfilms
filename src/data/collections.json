@@ -13,5 +13,10 @@
     "slug": "mandalorian",
     "title": "Мандалорец",
     "heroImage": "/posters/Mandalorian_2019.jpg"
+  },
+  {
+    "slug": "obi-wan",
+    "title": "Оби-Ван Кеноби",
+    "heroImage": "/posters/Obi_Wan_2022.jpg"
   }
 ]
