@@ -6,4 +6,5 @@ iframe: '<iframe src="https://vkvideo.ru/video_ext.php?oid=-235267106&id=4562390
 pubDate: "Jun 25 2022"
 movieYear: "1988"
 heroImage: "../../assets/Naked_Gun_1988.webp"
+collection: Голый пистолет
 ---

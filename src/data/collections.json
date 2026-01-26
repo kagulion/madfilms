@@ -1,7 +1,17 @@
 [
   {
+    "slug": "naked-gun",
+    "title": "Голый пистолет",
+    "heroImage": "/posters/Naked_Gun_1988.webp"
+  },
+  {
     "slug": "star-wars",
     "title": "Звёздные войны",
-    "heroImage": "/posters/Star_Wars_Episode_IV_-_A_New_Hope_1977.jpg"
+    "heroImage": "/posters/Star_Wars_1977.webp"
+  },
+  {
+    "slug": "mandalorian",
+    "title": "Мандалорец",
+    "heroImage": "/posters/Mandalorian_2019.jpg"
   }
 ]
