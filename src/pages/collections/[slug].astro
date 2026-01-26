@@ -85,18 +85,12 @@ const allMovies = [
   <body>
     <Header />
     <main class="m-0 px-4 pt-4">
-      <section class="mx-auto mb-5 max-w-480">
+      <section class="mx-auto mb-5 max-w-480 md:min-h-140">
         <div class="mb-6">
-          <a
-            href="/collections/"
-            class="inline-block mb-4 text-lime-400 hover:text-lime-800 transition-colors duration-300"
-          >
-            ← Назад к коллекциям
-          </a>
           <h1
             class="mx-auto max-w-5xl mb-4 font-semibold text-xl text-white sm:mb-6 sm:text-2xl"
           >
-            {currentCollection.title}
+            Все фильмы из коллекции «{currentCollection.title}», которые посмотрел Илья Мэддисон
           </h1>
         </div>
         <ul
