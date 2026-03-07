@@ -51,3 +51,16 @@ iframe {
   height: auto;
   aspect-ratio: 16/9;
 }
+
+@keyframes vault-boy-wobble {
+  0%, 100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+img[alt="Vault Boy"]:hover {
+  animation: vault-boy-wobble 0.6s ease-in-out infinite;
+}
