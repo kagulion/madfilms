@@ -1,5 +1,7 @@
 import { getCollection } from 'astro:content';
 
+export const prerender = false;
+
 export async function GET() {
   const posts = await getCollection('blog');
   
