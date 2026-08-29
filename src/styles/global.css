@@ -43,7 +43,11 @@
 
 body {
   font-family: "IBM Plex Mono", monospace;
-  @apply bg-stone-900 bg-[url('/dust-texture.png')] bg-repeat;
+  @apply bg-stone-900 bg-[url('/dust-texture.png')] bg-repeat min-h-screen flex flex-col;
+}
+
+main {
+  @apply flex-1 pb-20 sm:pb-24;
 }
 
 iframe {

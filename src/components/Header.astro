@@ -1,6 +1,6 @@
 ---
-import "../styles/global.css";
-import { SITE_TITLE, VKVIDEO_LINK } from "../consts";
+import '../styles/global.css';
+import { SITE_TITLE, VKVIDEO_LINK } from '../consts';
 ---
 
 <header class="m-0 px-4 py-4 sm:py-8">
@@ -20,7 +20,7 @@ import { SITE_TITLE, VKVIDEO_LINK } from "../consts";
             fill="#9AE600"></path>
         </svg>
       </a>
-      <div class="flex flex-wrap gap-3 sm:gap-6">
+      <div class="flex flex-wrap gap-3 sm:gap-6 items-center">
         <a
           href="/"
           class="p-0.5 font-semibold text-xs text-lime-400 hover:text-lime-800 sm:text-sm sm:px-1.5 sm:py-1 hover:bg-lime-400 transition-colors duration-300"
@@ -47,7 +47,7 @@ import { SITE_TITLE, VKVIDEO_LINK } from "../consts";
     <a
       href={VKVIDEO_LINK}
       target="_blank"
-      aria-label="Maddyson Films в Telegram"
+      aria-label="Maddyson Films во ВКонтакте"
       class="pt-4 md:pt-1"
     >
       <svg
@@ -68,17 +68,17 @@ import { SITE_TITLE, VKVIDEO_LINK } from "../consts";
 </header>
 
 <script is:inline>
-  document.addEventListener("DOMContentLoaded", () => {
-    const randomFilmBtn = document.getElementById("random-film-btn");
+  document.addEventListener('DOMContentLoaded', () => {
+    const randomFilmBtn = document.getElementById('random-film-btn');
 
     if (randomFilmBtn) {
-      randomFilmBtn.addEventListener("click", async (e) => {
+      randomFilmBtn.addEventListener('click', async (e) => {
         e.preventDefault();
 
         try {
-          const response = await fetch("/api/random-film");
+          const response = await fetch('/api/random-film');
           if (!response.ok) {
-            throw new Error("Failed to fetch random film");
+            throw new Error('Failed to fetch random film');
           }
 
           const data = await response.json();
@@ -86,9 +86,9 @@ import { SITE_TITLE, VKVIDEO_LINK } from "../consts";
             window.location.href = `/${data.slug}/`;
           }
         } catch (error) {
-          console.error("Error fetching random film:", error);
+          console.error('Error fetching random film:', error);
           // Fallback на главную страницу при ошибке
-          window.location.href = "/";
+          window.location.href = '/';
         }
       });
     }
