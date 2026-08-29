@@ -2,7 +2,7 @@
   "name": "madfilms",
   "description": "Фильмы с комментариями Ильи Мэддисона",
   "type": "module",
-  "version": "1.4",
+  "version": "1.5",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
